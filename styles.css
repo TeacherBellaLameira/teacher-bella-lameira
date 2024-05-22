@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #696969; /* Cinza Escuro */
+    color: #F0F0F0; /* Cinza Muito Claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2A52BE; /* Azul Escuro */
+    padding: 20px 0;
+    text-align: center;
+    color: #FFFFFF; /* Branco */
+    font-family: 'Montserrat', sans-serif;
+}
+
+header nav a {
+    color: #FFD700; /* Amarelo Médio */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.banner {
+    background-color: #696969; /* Cinza Escuro */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    color: #FFFFFF; /* Branco */
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner button {
+    background-color: #FFD700; /* Amarelo Médio */
+    color: #2A52BE; /* Azul Escuro */
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.content {
+    background-color: #D3D3D3; /* Cinza Claro */
+    padding: 40px 0;
+    margin: 20px 0;
+    text-align: center;
+    color: #2A52BE; /* Azul Escuro */
+}
+
+.content h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #FFD700; /* Amarelo Médio */
+    color: #2A52BE; /* Azul Escuro */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: 600;
+    color: #2A52BE; /* Azul Escuro */
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2A52BE; /* Azul Escuro */
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #FFD700; /* Amarelo Médio */
+    color: #2A52BE; /* Azul Escuro */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #2A52BE; /* Azul Escuro */
+    padding: 20px 0;
+    text-align: center;
+    color: #FFFFFF; /* Branco */
+}
+
+footer nav a {
+    color: #FFD700; /* Amarelo Médio */
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
